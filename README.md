@@ -107,8 +107,8 @@ proxy-groups:
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - DIRECT
       - 🚀 节点选择
+      - DIRECT
       - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
