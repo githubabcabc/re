@@ -113,20 +113,20 @@ proxy-groups:
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
-      - DIRECT
       - 🚀 节点选择
+      - DIRECT
       - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - DIRECT
       - 🚀 节点选择
+      - DIRECT
       - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
     proxies:
-      - DIRECT
       - 🚀 节点选择
+      - DIRECT
       - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
