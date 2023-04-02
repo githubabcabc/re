@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :19090
 proxies:
-  - {name: 22156789, server: "192.168.1.1", port: 56789, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 22161080, server: "192.168.1.1", port: 61080, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 22161081, server: "192.168.1.1", port: 61081, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 22161082, server: "192.168.1.1", port: 61082, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 22161083, server: "192.168.1.1", port: 61083, type: socks5, skip-cert-verify: true, udp: true}
-  - {name: 22161084, server: "192.168.1.1", port: 61084, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 22156789, server: "192.168.123.229", port: 56789, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 22161080, server: "192.168.123.229", port: 61080, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 22161081, server: "192.168.123.229", port: 61081, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 22161082, server: "192.168.123.229", port: 61082, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 22161083, server: "192.168.123.229", port: 61083, type: socks5, skip-cert-verify: true, udp: true}
+  - {name: 22161084, server: "192.168.123.229", port: 61084, type: socks5, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
